@@ -10,6 +10,13 @@ from django.conf import settings
 from .forms import AttenuationForm
 import os
 
+# -------------------------------------------------------------
+#  Structural IoT LLC
+#  www.structuraliot.com
+#  Author: Gaofeng
+#  Description: Attenuation prediction of ultrasonic wave in polycrystalline materials 
+# -------------------------------------------------------------
+
 def plot_attenuation(request):
     image_url = None
 
